@@ -33,6 +33,7 @@
 }
 body {
   padding-top: 70px;
+  color:white;
 }
 header {
       text-align: center;
@@ -42,6 +43,7 @@ header {
     
     h1 {
       font-size: 70px;
+      color: yellow;
     }
     ul {
       padding: 10px;
@@ -66,4 +68,6 @@ header {
      li {
        display: block;
        padding: 5px;
+       color: white;
      }
+
