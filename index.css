@@ -33,6 +33,7 @@
 }
 body {
   padding-top: 70px;
+  color: solid white;
 }
 header {
       text-align: center;
@@ -67,6 +68,7 @@ header {
      li {
        display: block;
        padding: 5px;
-       color: white;
      }
-
+p {
+  color: solid white;
+}
