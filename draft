@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+<form id="newsletter-signup" action="http://localhost:9000/f/abc" method="POST" accept-charset="UTF-8">
+  <input type="hidden" name="utf8" value="✓">
+  <input name="email" type="email">
+  <input value="Submit" type="submit">
+</form>
+ <input type ="answer" placeholder="answer">
+ <input type = "submit">
+
+<form id=form1>
+Hello! <input type="text" name="answer" size="20">
+</form>
+<button onclick="outputanswer()">Submit</button>
+
+
+<script>
+function outputanswer() {
+var x;
+x=document.getElementById("form1");
+if answer("Ola!") == true) {
+        x = "You pressed OK!";
+    } else {
+        x = "You pressed Cancel!";
+    }
+}
+</script>
+<script type="text/javascript">
+	$("button").on("click", function()) {
+		alert("clicked!")
+	}
+</script>
+</body>

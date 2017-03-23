@@ -1,0 +1,69 @@
+#me {
+  display: none;
+}
+
+#curiosities_about {
+  display: none;
+}
+
+#learn {
+  display: none;
+}
+
+#social-buttons button {
+  color:white;
+}
+.btn-twitter{
+  background-color: #00acee;
+  border-color:#009ad5;
+}
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+}
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+}
+.baia{
+  min-height: 600px;
+  background-image: url('Luanda-Angola-01.jpg');
+  background-size: cover; 
+  background-attachment: fixed;
+}
+body {
+  padding-top: 70px;
+}
+header {
+      text-align: center;
+      background-size: cover;
+      color: black;
+    }
+    
+    h1 {
+      font-size: 70px;
+    }
+    ul {
+      padding: 10px;
+      background: black;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 600px;
+      padding: 20px;
+      margin: 0px auto;
+     }
+    @media (max-witdh: 500px) {
+      h1 {
+       font-size: 36px;
+       font-style: italic;
+       color: black;
+     }
+
+     li {
+       display: block;
+       padding: 5px;
+     }

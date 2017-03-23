@@ -1,5 +1,128 @@
 <!DOCTYPE html>
+
 <head>
+    <style>
+    #myDIV1 {
+      width: 150px;
+      height: 150px;
+      background-color: lightblue;
+      display: none;
+    }
+
+
+    #myDIV2 {
+      width: 150px;
+      height: 150px;
+      background-color: lightblue;
+      display: none;
+    }
+
+
+    #myDIV3 {
+      width: 150px;
+      height: 150px;
+      background-color: lightblue;
+      display: none;
+    }
+
+
+    #myDIV4 {
+      width: 150px;
+      height: 150px;
+      background-color: lightblue;
+      display: none;
+    }
+
+    </style>
+    </head>
+
+<body>
+
+<p>Click button to see div.</p>
+
+      <button onclick="myFunction1()">About me</button>
+
+      <button onclick="myFunction2()">Two</button>
+
+      <button onclick="myFunction3()">Three</button>
+
+      <button onclick="myFunction4()">Four</button>
+
+    <div id="myDIV1">
+
+      <p>My name is Ariel Neves, an Angolan girl that loves to learn languages and travelling. This is a page I decided to write because it was proposed to me by my collaborator Anja Schneidewind. It basically has the purpose of making the readers indulge a little bit in the Angolan culture.</p>
+
+    </div>
+
+    <div id="myDIV2">
+
+      This is the div2 element.
+
+    </div>
+
+    <div id="myDIV3">
+
+      This is the div3 element.
+
+    </div>
+
+    <div id="myDIV4">
+
+      This is the div4 element.
+
+    </div>
+
+    <script> 
+
+      function myFunction1() {
+
+        document.getElementById("myDIV1").style.display = "block";
+
+        document.getElementById("myDIV2").style.display = "none";
+
+        document.getElementById("myDIV3").style.display = "none";
+
+        document.getElementById("myDIV4").style.display = "none";
+
+    }
+
+    function myFunction2() {
+
+      document.getElementById("myDIV1").style.display = "none";
+
+      document.getElementById("myDIV2").style.display = "block";
+
+      document.getElementById("myDIV3").style.display = "none";
+
+      document.getElementById("myDIV4").style.display = "none";
+
+    }
+
+    function myFunction3() {
+
+      document.getElementById("myDIV1").style.display = "none";
+
+      document.getElementById("myDIV2").style.display = "none";
+
+      document.getElementById("myDIV3").style.display = "block";
+
+      document.getElementById("myDIV4").style.display = "none";
+
+    }
+
+    function myFunction4() {
+
+      document.getElementById("myDIV1").style.display = "none"; 
+
+      document.getElementById("myDIV2").style.display = "none";
+
+      document.getElementById("myDIV3").style.display = "none";
+
+      document.getElementById("myDIV4").style.display = "block";
+
+    }
+
+  <head>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -127,18 +250,34 @@ function myFunction1() {
     }
 </script>
 
-<div id='social-buttons'>
-      <button class='btn-twitter'>Twitter</button><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Dept of Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456">May 5, 2014</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-       
-      <div id="fb-root">
-          <script>(function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v2.8";
-              fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));</script>
+<style>
+#social-buttons button {
+  color:white;
+}
+.btn-twitter{
+  background-color: #00acee;
+  border-color:#009ad5;
+}
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+}
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  </style>
 
+<div id='social-buttons'>
+      <button class='btn-twitter'>Twitter</button>
+      <div id="fb-root">
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<button class='btn-facebook'>Facebook</button></div>
 <div class="fb-share-button" data-href="https://Ari3ll31.github.io/index.html" data-layout="button_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2FAri3ll31.github.io%2Findex.html&amp;src=sdkpreparse"><button class='btn-facebook'>Facebook</button></div></a></div>
       
       <button class='btn-pinterest'>Pinterest</button>
